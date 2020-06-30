@@ -1,4 +1,13 @@
-services-container {
+.services-container {
 	display: flex;
-	background: blue;
+	background: lightblue;
+	justify-content: space-around;
+}
+
+.services-container h3 {
+	background: none;
+}
+
+.services {
+	border: 1px solid red;
 }
