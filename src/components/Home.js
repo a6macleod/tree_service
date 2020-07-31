@@ -11,14 +11,13 @@ class Home extends React.Component {
         <h2 className="telephone">
           <a href="tel:+123456789">Call us!</a>
         </h2>
-        <div className="content">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+        <div className="content-about">
+          <blockquote>
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
             repellat doloribus laboriosam, beatae odio molestias blanditiis.
             Iste sit quis officiis sapiente, ipsa ut, temporibus delectus
-            laudantium omnis itaque vero maxime?
-          </p>
-          <h2>What we do</h2>
+            laudantium omnis itaque vero maxime?" <footer>-SomeGuyius</footer>
+          </blockquote>
 
           <div className="services-container">
             <div className="services">
