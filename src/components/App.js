@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.css";
 import { Route, NavLink, HashRouter } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
@@ -19,6 +18,10 @@ class App extends React.Component {
               </h3>
             </div>
             <nav>
+              <div className="phone">
+                <h3>Call us!</h3>
+                <a href="tel:+123456789">(123)456-7890</a>
+              </div>
               <ul>
                 <li className="navButton">
                   <NavLink exact to="/">

@@ -1,5 +1,4 @@
 import React from "react";
-import "../Home.css";
 import treeRemoval from "../images/tree-removal.jpg";
 import treeTrimming from "../images/tree-trimming.jpg";
 import healthyTrees from "../images/healthy-trees.jpg";
@@ -8,9 +7,6 @@ class Home extends React.Component {
   render() {
     return (
       <div className="container">
-        <h2 className="telephone">
-          <a href="tel:+123456789">Call us!</a>
-        </h2>
         <div className="content-about">
           <blockquote>
             "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
@@ -51,7 +47,7 @@ class Home extends React.Component {
             </div>
 
             <div className="services">
-              <h3>Tree Health</h3>
+              <h3>Arborist Services</h3>
               <img src={healthyTrees} alt="A walking path lined by trees" />
               <span>
                 Photo by{" "}

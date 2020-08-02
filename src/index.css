@@ -68,6 +68,25 @@ nav ul .navButton {
 	border-radius: 2px;
 }
 
+.phone {
+	display: flex;
+	justify-content: center;
+}
+
+.phone a,
+.phone h3 {
+	flex-basis: 40%;
+}
+
+.phone a {
+	background: none;
+}
+
+.phone h3 {
+	flex-shrink: 0;
+	padding: 20px 5px 20px 10px;
+}
+
 a {
 	background: rgba(0, 0, 0, 0.2);
 	color: white;
@@ -97,15 +116,52 @@ blockquote {
 	margin: 50px 20%;
 }
 
-.telephone a {
-	width: 25%;
-	display: block;
-	margin: 0 auto;
-}
-
 .services-container {
 	display: flex;
 	justify-content: space-around;
+	background: white;
+	width: 100vw;
+}
+
+/* mobile screen size re-ordering */
+@media (max-width: 500px) {
+	/* Home page images */
+	.services-container {
+		flex-direction: column;
+	}
+
+	/* Header phone number */
+	.phone {
+		flex-direction: column;
+	}
+	.phone h3 {
+		flex-shrink: 0;
+		padding: 10px 5px;
+		margin-bottom: 0;
+		text-align: center;
+	}
+	.phone a {
+		padding-top: 5px;
+		text-align: center;
+	}
+
+	/* Nav Bar */
+	header {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	nav {
+		margin: 0 auto;
+	}
+}
+
+.services {
+	border: 1px solid #808080;
+	background: #9999ff;
+	flex-shrink: 1;
+	display: flex;
+	flex-direction: column;
 }
 
 .services-container h3 {
@@ -116,11 +172,8 @@ blockquote {
 
 .services img {
 	margin: 0 5px;
-}
-
-.services {
-	border: 1px solid #808080;
-	background: #9999ff;
+	max-width: 100%;
+	flex-shrink: 1;
 }
 
 .services span {
@@ -142,4 +195,9 @@ blockquote {
 .services span a:hover {
 	text-decoration: underline;
 	color: #666666;
+}
+
+/* About section */
+.container-about h2 {
+	margin-left: 10%;
 }

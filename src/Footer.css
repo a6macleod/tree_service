@@ -1,3 +1,43 @@
 .container-footer {
-	background: pink;
+	background: #009900;
+	color: white;
+	display: flex;
+	padding: 30px;
+	text-align: center;
+	justify-content: space-around;
+}
+
+.container-footer footer {
+	/*text-align: center;*/
+}
+
+.container-footer footer > *,
+.container-footer .contact > * {
+	margin: 10px 0;
+}
+
+.container-footer a {
+	background: none;
+	text-decoration: underline;
+	color: white;
+	letter-spacing: normal;
+	padding: 3px;
+	display: inline;
+	transition: all 0.2s;
+
+	/*
+	background: grey;
+	color: white;
+	width: 100%;
+	letter-spacing: 2px;
+	text-decoration: none;
+	padding: 20px 10px;
+	display: inline-block;
+	text-align: center;
+	transition: all 0.2s;
+	*/
+}
+
+.container-footer a:hover {
+	background: rgba(0, 0, 0, 0.3);
 }
