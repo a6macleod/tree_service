@@ -7,12 +7,7 @@
 	justify-content: space-around;
 }
 
-.container-footer footer {
-	/*text-align: center;*/
-}
-
-.container-footer footer > *,
-.container-footer .contact > * {
+.container-footer footer > * {
 	margin: 10px 0;
 }
 
@@ -21,23 +16,40 @@
 	text-decoration: underline;
 	color: white;
 	letter-spacing: normal;
-	padding: 3px;
+	padding: 10px 5px;
 	display: inline;
 	transition: all 0.2s;
-
-	/*
-	background: grey;
-	color: white;
-	width: 100%;
-	letter-spacing: 2px;
-	text-decoration: none;
-	padding: 20px 10px;
-	display: inline-block;
-	text-align: center;
-	transition: all 0.2s;
-	*/
 }
 
 .container-footer a:hover {
 	background: rgba(0, 0, 0, 0.3);
+}
+
+.container-footer .social-icon {
+	padding: 10px;
+}
+
+.social a {
+	margin: 10px;
+	text-align: center;
+}
+
+.social a:hover {
+	background: none;
+}
+
+.social-icon img:hover {
+	transition-duration: 0.5s;
+	transform: scale(1.2);
+}
+
+.container-footer .contact {
+	display: flex;
+	padding: 0;
+	width: 100%;
+}
+
+.container-footer footer > span,
+.container-footer footer > a {
+	color: #8cd98c;
 }
