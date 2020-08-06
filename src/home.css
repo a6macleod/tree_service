@@ -54,3 +54,11 @@ blockquote {
 	text-decoration: underline;
 	color: #666666;
 }
+
+/* mobile screen size re-ordering */
+@media (max-width: 500px) {
+	/* Home page images */
+	.services-container {
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,96 @@
+/* Higher level flex box layout */
+.main-container {
+	display: flex;
+}
+
+.left-side {
+	min-width: 40%;
+	flex: 1;
+}
+
+.right-side {
+	min-width: 37%;
+	/*flex-shrink: 2;*/
+}
+
+@media (max-width: 1100px) {
+	.main-container {
+		flex-direction: column;
+	}
+}
+
+/* Contact information section */
+.contact-info {
+	width: 95%;
+	margin: 16px 3%;
+	padding: 5px;
+}
+
+.contact-info .bold {
+	font-weight: bold;
+}
+
+.contact-info a {
+	background: none;
+	text-decoration: underline;
+	color: #666666;
+	letter-spacing: normal;
+	padding: 5px 5px;
+	display: inline;
+}
+
+.contact-info a:hover {
+	background: rgba(0, 0, 0, 0.3);
+	color: #fff;
+}
+
+.contact-info .contact-address {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.contact-info .contact-location {
+	margin-bottom: 0;
+}
+
+/* Form section */
+form {
+	background: #9999ff;
+	padding: 10px;
+	margin: 16px 3%;
+	border: 1px solid #009900;
+}
+
+form div {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+
+form input,
+form textarea {
+	padding: 10px;
+	margin-top: 3px;
+}
+
+form .form-submit {
+	width: 30%;
+}
+
+/* Embedded map section */
+.location {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+	border: 1px solid #009900;
+	margin: 16px 3%;
+}
+
+.location iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}

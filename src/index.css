@@ -79,6 +79,7 @@ nav ul .navButton {
 .phone h3 {
 	flex-shrink: 0;
 	padding: 20px 5px 20px 10px;
+	margin-left: 0;
 }
 
 a {
@@ -103,9 +104,14 @@ a:hover {
 
 /* mobile screen size re-ordering */
 @media (max-width: 500px) {
-	/* Home page images */
-	.services-container {
+	/* Nav Bar */
+	header {
+		display: flex;
 		flex-direction: column;
+		text-align: center;
+	}
+	nav {
+		margin: 0 auto;
 	}
 
 	/* Header phone number */
@@ -121,15 +127,5 @@ a:hover {
 	.phone a {
 		padding-top: 5px;
 		text-align: center;
-	}
-
-	/* Nav Bar */
-	header {
-		display: flex;
-		flex-direction: column;
-		text-align: center;
-	}
-	nav {
-		margin: 0 auto;
 	}
 }
