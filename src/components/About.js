@@ -1,21 +1,26 @@
 import React from "react";
+import portrait from "../images/portrait.jpg";
 
 class About extends React.Component {
   render() {
     return (
       <div className="container-about">
-        <h2 className="title">About</h2>
-        <div className="subsection one">
-          <h3>title</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
-            consequatur animi minima, magnam. Quibusdam incidunt necessitatibus
-            quo assumenda atque, exercitationem, in minima iusto nihil
-            aspernatur vitae laudantium accusamus magnam reiciendis non iure
-            ducimus accusantium quae reprehenderit? Deleniti vel, pariatur,
-            accusantium officia provident sunt eaque nesciunt autem repudiandae
-            amet qui sint!
-          </p>
+        <div className="subsection sub-one">
+          <h3>We Love trees!</h3>
+
+          <div className="portrait">
+            <img src={portrait} alt="a mans head surrounded by leaves" />
+            <span>
+              Photo by{" "}
+              <a href="https://unsplash.com/@dianasimumpande?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+                Diana Simumpande
+              </a>{" "}
+              on{" "}
+              <a href="https://unsplash.com/t/people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+                Unsplash
+              </a>
+            </span>
+          </div>
 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nihil
@@ -26,7 +31,7 @@ class About extends React.Component {
             facilis placeat, porro quaerat!
           </p>
         </div>
-        <div className="subsection two">
+        <div className="subsection sub-two">
           <h3>title</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
