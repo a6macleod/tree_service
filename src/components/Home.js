@@ -1,4 +1,5 @@
 import React from "react";
+import "../home.css";
 import treeRemoval from "../images/tree-removal.jpg";
 import treeTrimming from "../images/tree-trimming.jpg";
 import healthyTrees from "../images/healthy-trees.jpg";

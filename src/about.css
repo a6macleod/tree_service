@@ -1,0 +1,51 @@
+/* About section */
+.sub-one {
+	display: flex;
+	margin: 3% 10%;
+	flex-wrap: wrap;
+	flex-basis: auto;
+	color: #ffffff;
+	background: #9999ff;
+}
+
+.sub-one h3 {
+	margin: 20px 0 20px 20px;
+	flex-basis: 100px;
+}
+
+.portrait {
+	margin: 10px 10px;
+	flex-basis: 200px;
+	flex-grow: 2;
+	flex-shrink: 1;
+}
+
+.portrait img {
+	width: 100%;
+}
+
+.sub-one p {
+	padding: 20px;
+	flex: 1 1 400px;
+}
+
+.portrait span {
+	display: block;
+	text-align: center;
+	margin: 5px;
+	color: #808080;
+}
+
+.portrait span a {
+	background: none;
+	color: #808080;
+	letter-spacing: normal;
+	padding: 0;
+	display: inline;
+	transition: all 0.2s;
+}
+
+.portrait span a:hover {
+	text-decoration: underline;
+	color: #666666;
+}

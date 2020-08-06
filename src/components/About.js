@@ -1,4 +1,5 @@
 import React from "react";
+import "../about.css";
 import portrait from "../images/portrait.jpg";
 
 class About extends React.Component {
