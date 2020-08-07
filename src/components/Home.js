@@ -17,7 +17,7 @@ class Home extends React.Component {
           </blockquote>
 
           <div className="services-container">
-            <div className="services">
+            <div className="services sub-color">
               <h3>Tree Removal</h3>
               <img src={treeRemoval} alt="A felled tree and chainsaw" />
               <span>
@@ -32,7 +32,7 @@ class Home extends React.Component {
               </span>
             </div>
 
-            <div className="services">
+            <div className="services sub-color">
               <h3>Tree Trimming</h3>
               <img src={treeTrimming} alt="A man trimming a tree" />
               <span>
@@ -47,7 +47,7 @@ class Home extends React.Component {
               </span>
             </div>
 
-            <div className="services">
+            <div className="services sub-color">
               <h3>Arborist Services</h3>
               <img src={healthyTrees} alt="A walking path lined by trees" />
               <span>

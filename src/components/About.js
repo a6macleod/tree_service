@@ -6,7 +6,7 @@ class About extends React.Component {
   render() {
     return (
       <div className="container-about">
-        <div className="subsection sub-one">
+        <div className="subsection sub-one sub-color">
           <h3>We Love trees!</h3>
 
           <div className="portrait">

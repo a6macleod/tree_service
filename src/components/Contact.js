@@ -23,7 +23,8 @@ class Contact extends React.Component {
             </p>
             <p className="contact-address">111 Kalamazoo, MI 49001</p>
           </div>
-          <div className="form-section">
+
+          <div className="form-section sub-color">
             <form action="" className="contact-form">
               <div className="form-name">
                 <label htmlFor="name">
