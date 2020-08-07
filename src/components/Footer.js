@@ -34,7 +34,13 @@ class Footer extends React.Component {
 
           <span dangerouslySetInnerHTML={{ __html: "&copy;" }} />
           <span> 2020 </span>
-          <a href="github.com/a6macleod">Andrew MacLeod</a>
+          <a
+            href="https://github.com/a6macleod"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Andrew MacLeod
+          </a>
         </footer>
       </div>
     );
