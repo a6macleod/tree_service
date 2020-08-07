@@ -12,7 +12,7 @@ class Footer extends React.Component {
             <a
               href="https://www.facebook.com/"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="social-icon"
             >
               <img src={fbIcon} alt="Facebook Icon Link" />
@@ -20,7 +20,7 @@ class Footer extends React.Component {
             <a
               href="https://www.instagram.com/"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="social-icon"
             >
               <img src={instagram} alt="Instagram Icon Link" />
