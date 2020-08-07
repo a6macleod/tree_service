@@ -4,8 +4,9 @@
 	margin: 3% 10%;
 	flex-wrap: wrap;
 	flex-basis: auto;
-	color: #ffffff;
-	background: #9999ff;
+	color: #4a5344;
+	background: #bec8b5;
+	border: 1px solid #708067;
 }
 
 .sub-one h3 {

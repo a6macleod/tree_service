@@ -21,12 +21,12 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	margin: 0;
-	background: #8cd98c;
-	color: #666666;
+	background: #ddf4c7;
+	color: #627358;
 }
 
 header {
-	background-color: #009900;
+	background-color: #358600;
 	display: flex;
 	justify-content: space-between;
 	color: #ffffff;

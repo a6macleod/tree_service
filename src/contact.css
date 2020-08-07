@@ -33,7 +33,7 @@
 .contact-info a {
 	background: none;
 	text-decoration: underline;
-	color: #666666;
+	color: #708067;
 	letter-spacing: normal;
 	padding: 5px 5px;
 	display: inline;
@@ -55,10 +55,11 @@
 
 /* Form section */
 form {
-	background: #9999ff;
+	background: #bec8b5;
 	padding: 10px;
 	margin: 16px 3%;
-	border: 1px solid #009900;
+	border: 1px solid #708067;
+	color: #4a5344;
 }
 
 form div {
@@ -83,7 +84,7 @@ form .form-submit {
 	padding-bottom: 56.25%;
 	position: relative;
 	height: 0;
-	border: 1px solid #009900;
+	border: 1px solid #708067;
 	margin: 16px 3%;
 }
 
